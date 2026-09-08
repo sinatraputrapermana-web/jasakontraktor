@@ -26,6 +26,9 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/custom-layout.css" rel="stylesheet">
+  
+  <!-- Preload Critical Image -->
+  <link rel="preload" href="assets/img/jasa/idx-hero.webp" as="image" fetchpriority="high">
 </head>
 
 <body class="index-page bg-light-gray">
@@ -66,7 +69,7 @@
       </nav>
 
       <div class="d-flex align-items-center gap-4 d-none d-lg-flex">
-        <a class="btn btn-primary rounded-pill px-4 py-2 fw-medium d-flex align-items-center gap-2" href="https://wa.me/6288989643555" target="_blank">
+        <a class="btn btn-primary rounded-pill px-4 py-2 fw-medium d-flex align-items-center gap-2" href="https://wa.me/6282211221909" target="_blank">
           <i class="bi bi-whatsapp"></i> Kontak
         </a>
       </div>
@@ -100,7 +103,7 @@
           </div>
           <!-- Hero Image -->
           <div class="col-lg-7 col-xl-7 position-relative hero-img-col">
-            <img src="assets/img/jasa/idx-hero.webp" class="img-fluid rounded-start-4 shadow-lg w-100" style="object-fit: cover; height: 500px;" alt="Hero Construction">
+            <img src="assets/img/jasa/idx-hero.webp" class="img-fluid rounded-start-4 shadow-lg w-100" style="object-fit: cover; height: 500px;" alt="Hero Construction" fetchpriority="high" width="800" height="500">
           </div>
         </div>
       </div>
@@ -143,7 +146,7 @@
           
           <div class="col-lg-3 col-md-6">
             <div class="card service-card h-100 border-0 shadow-sm rounded-4 overflow-hidden position-relative">
-              <img src="assets/img/jasa/idx-srv-rumah.webp" class="card-img-top" alt="Rumah" style="height: 180px; object-fit: cover;">
+              <img src="assets/img/jasa/idx-srv-rumah.webp" class="card-img-top" alt="Rumah" style="height: 180px; object-fit: cover;" loading="lazy" width="600" height="400">
               <div class="service-icon-circle bg-primary text-white d-flex align-items-center justify-content-center shadow">
                 <i class="bi bi-house-door-fill"></i>
               </div>
@@ -159,7 +162,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="card service-card h-100 border-0 shadow-sm rounded-4 overflow-hidden position-relative">
-              <img src="assets/img/jasa/idx-srv-komersial.webp" class="card-img-top" alt="Komersial" style="height: 180px; object-fit: cover;">
+              <img src="assets/img/jasa/idx-srv-komersial.webp" class="card-img-top" alt="Komersial" style="height: 180px; object-fit: cover;" loading="lazy" width="600" height="400">
               <div class="service-icon-circle bg-primary text-white d-flex align-items-center justify-content-center shadow">
                 <i class="bi bi-buildings-fill"></i>
               </div>
@@ -175,7 +178,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="card service-card h-100 border-0 shadow-sm rounded-4 overflow-hidden position-relative">
-              <img src="assets/img/jasa/idx-srv-kantor.webp" class="card-img-top" alt="Kantor" style="height: 180px; object-fit: cover;">
+              <img src="assets/img/jasa/idx-srv-kantor.webp" class="card-img-top" alt="Kantor" style="height: 180px; object-fit: cover;" loading="lazy" width="600" height="400">
               <div class="service-icon-circle bg-primary text-white d-flex align-items-center justify-content-center shadow">
                 <i class="bi bi-briefcase-fill"></i>
               </div>
@@ -191,7 +194,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="card service-card h-100 border-0 shadow-sm rounded-4 overflow-hidden position-relative">
-              <img src="assets/img/jasa/idx-srv-publik.webp" class="card-img-top" alt="Institusi" style="height: 180px; object-fit: cover;">
+              <img src="assets/img/jasa/idx-srv-publik.webp" class="card-img-top" alt="Institusi" style="height: 180px; object-fit: cover;" loading="lazy" width="600" height="400">
               <div class="service-icon-circle bg-primary text-white d-flex align-items-center justify-content-center shadow">
                 <i class="bi bi-mortarboard-fill"></i>
               </div>
@@ -329,7 +332,7 @@
           <!-- Project 1 -->
           <div class="col-lg-4 col-md-6">
             <div class="card project-card border-0 rounded-4 overflow-hidden shadow-sm bg-white">
-              <img src="assets/img/jasa/idx-proyek-1.webp" class="card-img-top" alt="Lakeside Retreat" style="height: 220px; object-fit: cover;">
+              <img src="assets/img/jasa/idx-proyek-1.webp" class="card-img-top" alt="Lakeside Retreat" style="height: 220px; object-fit: cover;" loading="lazy" width="600" height="400">
               <div class="card-body p-4">
                 <div class="d-flex justify-content-between align-items-start mb-2">
                   <h5 class="card-title fw-bold text-dark mb-0">Villa Danau Biru</h5>
@@ -343,7 +346,7 @@
           <!-- Project 2 -->
           <div class="col-lg-4 col-md-6">
             <div class="card project-card border-0 rounded-4 overflow-hidden shadow-sm bg-white">
-              <img src="assets/img/jasa/idx-proyek-2.webp" class="card-img-top" alt="The Summit" style="height: 220px; object-fit: cover;">
+              <img src="assets/img/jasa/idx-proyek-2.webp" class="card-img-top" alt="The Summit" style="height: 220px; object-fit: cover;" loading="lazy" width="600" height="400">
               <div class="card-body p-4">
                 <div class="d-flex justify-content-between align-items-start mb-2">
                   <h5 class="card-title fw-bold text-dark mb-0">Apartemen Puncak</h5>
@@ -357,7 +360,7 @@
           <!-- Project 3 -->
           <div class="col-lg-4 col-md-6">
             <div class="card project-card border-0 rounded-4 overflow-hidden shadow-sm bg-white">
-              <img src="assets/img/jasa/idx-proyek-3.webp" class="card-img-top" alt="Elevate Office" style="height: 220px; object-fit: cover;">
+              <img src="assets/img/jasa/idx-proyek-3.webp" class="card-img-top" alt="Elevate Office" style="height: 220px; object-fit: cover;" loading="lazy" width="600" height="400">
               <div class="card-body p-4">
                 <div class="d-flex justify-content-between align-items-start mb-2">
                   <h5 class="card-title fw-bold text-dark mb-0">Gedung Sentral</h5>
@@ -483,9 +486,9 @@
           </div>
           <p class="text-white-50 small mb-4 pe-4">Bangunan modern. Proses lebih cerdas. Hasil akhir memuaskan. Itulah janji dari layanan profesional kami.</p>
           <div class="d-flex gap-3">
-            <a href="#" class="text-white-50 text-decoration-none hover-white"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="text-white-50 text-decoration-none hover-white"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="text-white-50 text-decoration-none hover-white"><i class="bi bi-linkedin"></i></a>
+            <a href="#" aria-label="Facebook" class="text-white-50 text-decoration-none hover-white"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Instagram" class="text-white-50 text-decoration-none hover-white"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn" class="text-white-50 text-decoration-none hover-white"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
@@ -523,7 +526,7 @@
           <h6 class="text-uppercase fw-bold mb-4 small tracking-wide">Hubungi Kami</h6>
           <ul class="list-unstyled mb-0 text-white-50 small">
             <li class="mb-3 d-flex align-items-center gap-2">
-              <i class="bi bi-telephone text-primary"></i> 088989643555
+              <i class="bi bi-telephone text-primary"></i> 0822-1122-1909
             </li>
             <li class="mb-3 d-flex align-items-center gap-2">
               <i class="bi bi-envelope text-primary"></i> halo@jasakontraktor.com
@@ -543,16 +546,16 @@
 
   
   <!-- Floating WhatsApp -->
-  <a href="https://wa.me/6288989643555" class="floating-wa" target="_blank" aria-label="WhatsApp Kami"><i class="bi bi-whatsapp"></i></a>
+  <a href="https://wa.me/6282211221909" class="floating-wa" target="_blank" aria-label="WhatsApp Kami"><i class="bi bi-whatsapp"></i></a>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center bg-primary text-white"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" aria-label="Scroll to Top" class="scroll-top d-flex align-items-center justify-content-center bg-primary text-white"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
   
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 
 </body>
 
