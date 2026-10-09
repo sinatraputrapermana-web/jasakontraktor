@@ -45,7 +45,33 @@
         mobileNavToogle();
       }
     });
+  });
 
+  /**
+   * Dynamically set active state on navbar links based on current URL
+   */
+  let currentUrl = window.location.pathname.split('/').pop();
+  if (!currentUrl || currentUrl === '') currentUrl = 'index.html';
+
+  let navLinks = document.querySelectorAll('#navmenu a');
+  navLinks.forEach(a => {
+    a.classList.remove('active');
+  });
+
+  navLinks.forEach(a => {
+    let href = a.getAttribute('href');
+    if (href && href === currentUrl) {
+      a.classList.add('active');
+      
+      let parentDropdown = a.closest('li.dropdown');
+      while (parentDropdown) {
+        let parentLink = parentDropdown.querySelector('a');
+        if (parentLink) {
+          parentLink.classList.add('active');
+        }
+        parentDropdown = parentDropdown.parentElement.closest('li.dropdown');
+      }
+    }
   });
 
   /**
